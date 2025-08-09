@@ -377,28 +377,7 @@ export const CameraView: React.FC = () => {
           )}
 
           {/* Instructions */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-              <h4 className="font-medium text-blue-900 mb-2">Setup Instructions:</h4>
-              <ul className="text-sm text-blue-800 space-y-1">
-                <li>• Add your photos to <code className="bg-blue-100 px-1 rounded">known_faces/</code> folder</li>
-                <li>• Name files as: <code className="bg-blue-100 px-1 rounded">yourname.jpg</code></li>
-                <li>• Start API: <code className="bg-blue-100 px-1 rounded">python scripts/face_recognition_api.py</code></li>
-                <li>• Install dependencies: <code className="bg-blue-100 px-1 rounded">pip install -r scripts/requirements.txt</code></li>
-              </ul>
-            </div>
-
-            <div className="bg-purple-50 border border-purple-200 rounded-lg p-4">
-              <h4 className="font-medium text-purple-900 mb-2">Attendance Features:</h4>
-              <ul className="text-sm text-purple-800 space-y-1">
-                <li>• <strong>Check-In:</strong> Records arrival time (late if after 8:30 AM)</li>
-                <li>• <strong>Check-Out:</strong> Records departure and calculates working hours</li>
-                <li>• <strong>Voice Announcements:</strong> Confirms check-in/out actions</li>
-                <li>• <strong>Working Hours:</strong> Automatically calculated from in/out times</li>
-                <li>• <strong>Dashboard:</strong> View complete attendance history</li>
-              </ul>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
