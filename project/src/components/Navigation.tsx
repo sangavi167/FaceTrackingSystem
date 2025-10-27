@@ -39,6 +39,9 @@ export const Navigation: React.FC<NavigationProps> = ({
       { id: 'od', label: 'OD', icon: Calendar },
       { id: 'calendar', label: 'Calendar', icon: Calendar },
     ] : []),
+    ...(isTeacher ? [
+      { id: 'analytics', label: 'Analytics', icon: TrendingUp },
+    ] : []),
     ...(isAdmin ? [
       { id: 'analytics', label: 'Analytics', icon: TrendingUp },
       { id: 'admin', label: 'Admin', icon: Settings },
